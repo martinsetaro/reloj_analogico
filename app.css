@@ -149,39 +149,43 @@
     background-color: red;
     margin-left: 210px;
     border-radius: 10px;
-    z-index: 99;
+    
     
     
  }
- .hora{
-    width: 200px;
+ .hora
+ {
+    width: 180px;
     height: 30px;
     background-color: blue;
    position: absolute;
     border-radius: 10px;
+    margin-left: 140px;
+    
     
  }
  .minuto
  {
-    width: 180px;
+    width: 200px;
     height: 30px;
     background-color: black;
     position: absolute;
     border-radius: 10px;
+    margin-left: 140px;
     
  }
  .hr ,
  .min 
  {
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+   
  }
- .hr 
- {
-    margin-left: -40px;
-    
- }
- .min 
- {
-    margin-left: 20px;
- }
+
+
  
